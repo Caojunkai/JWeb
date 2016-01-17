@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.content .goods-list{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.content .goods-list .container-fluid .row{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.content .goods-list .container-fluid [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+.content .goods-list .container-fluid .row a{
+    text-decoration: none;
+}
+.goods-list .container-fluid .good-wrapper{
+    text-align: center;
+    border: 1px solid #EDEDED;
+}
+.goods-list .container-fluid .good-wrapper img{
+    display: block;
+    margin: auto;
+}
+.goods-list .container-fluid .good-wrapper .good-label{
+    display: block;
+    margin-top: 15px;
+}
+.goods-list .container-fluid .good-wrapper .good-price{
+    display: block;
+    color: red;
+    margin-top: 5px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+

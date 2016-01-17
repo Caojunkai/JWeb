@@ -1,0 +1,16 @@
+$(document).ready(function(){
+    $(".header-welcome-logout-btn").click(function(){
+        $.post(
+            "/JWeb/servlet/LogoutServlet",
+            function(data){
+                window.location.reload();
+            }
+        )
+    });
+    $(".good-wrapper").mouseenter(function(){
+        $(this).css({"border-color":"#D6B49D"});
+    });
+    $(".good-wrapper").mouseleave(function(){
+        $(this).css({"border-color":"#EDEDED"})
+    })
+});

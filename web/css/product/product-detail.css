@@ -1,0 +1,36 @@
+*{
+    font-family: "Microsoft YaHei", 'PT Sans', Helvetica, Arial, sans-serif;
+    font-size: inherit;
+}
+.goods-detail-img,.goods-detail-desc{
+    float: left;
+    padding-left: 10px;
+}
+.goods-detail-img img{
+    display: block;
+    margin: auto;
+}
+.content .goods-detail .goods-detail-desc .goods-detail-desc-name{
+    font-weight: 600;
+    color: #666666;
+    margin-top: 20px;
+}
+.content .goods-detail .goods-detail-desc .goods-detail-desc-price{
+    color: red;
+    font-size: large;
+    font-weight: 700;
+}
+.content .goods-detail .goods-detail-desc #btn-order{
+    margin-top: 10px;
+}
+.content .goods-detail .goods-detail-desc label{
+    font-weight: 600;
+    color: #666666;
+}
+.content .goods-detail .goods-detail-desc #goods-detail-desc-num{
+    width: 50px;
+    height: 30px;
+    font-size: large;
+    color: red;
+    text-align: center;
+}
