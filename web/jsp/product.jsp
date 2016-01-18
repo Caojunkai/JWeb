@@ -30,7 +30,7 @@
                <form action="<%=request.getContextPath() %>/servlet/CartServlet" method="post" name="goods-detail-order">
                    <input type="hidden" name="id" value="<%=item.getId() %>">
                    <input type="hidden" name="action" value="add">
-                   <label for="goods-detail-desc-num">购买数量</label>&nbsp;&nbsp;<input type="number" name="num" id="goods-detail-desc-num" value="1"><br />
+                   <label for="goods-detail-desc-num">购买数量</label>&nbsp;&nbsp;<input type="number" min="1" step="1" name="num" id="goods-detail-desc-num" value="1"><br />
                    <button type="button" class="btn btn-danger " id="btn-order" >加入购物车</button>
                </form>
            </div>
