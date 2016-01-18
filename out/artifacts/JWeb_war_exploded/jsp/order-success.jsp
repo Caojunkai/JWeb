@@ -23,7 +23,7 @@
 <div class="content">
     <div class="content-label">
         <span>√&nbsp;&nbsp;添加购物车成功</span>
-        <a href="./cart.jsp" class="btn btn-danger">查看购物车</a>
+        <a href="/JWeb/jsp/cart.jsp" class="btn btn-danger">查看购物车</a>
     </div>
 
 </div>
