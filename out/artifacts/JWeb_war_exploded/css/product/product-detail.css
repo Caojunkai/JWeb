@@ -34,3 +34,22 @@
     color: red;
     text-align: center;
 }
+.modal .modal-dialog .modal-body{
+}
+.modal .modal-dialog .modal-body input,.modal .modal-dialog .modal-body button{
+    display: block;
+    width: 300px;
+    height: 30px;
+    margin: 0 auto;
+    font-size: medium;
+}
+#loginModalLabel{
+    text-align: center;
+}
+.modal .modal-dialog .modal-body .modal-body-msg{
+    color: red;
+    font-size: large;
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+}

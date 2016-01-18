@@ -50,19 +50,19 @@
                             aria-hidden="true">×
                     </button>
                     <h4 class="modal-title" id="loginModalLabel">
-                        模态框（Modal）标题
+                        登录
                     </h4>
                 </div>
                 <div class="modal-body">
-                    点击关闭按钮检查事件功能。
+                    <span class="modal-body-msg"></span>
+                    <input type="text" id="username" placeholder="用户名"><br />
+                    <input type="password" id="password" placeholder="密码"><br />
+                    <button type="button" class="btn btn-primary" id="login-submit">登录</button>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default"
                             data-dismiss="modal">
                         关闭
-                    </button>
-                    <button type="button" class="btn btn-primary">
-                        提交更改
                     </button>
                 </div>
             </div><!-- /.modal-content -->
